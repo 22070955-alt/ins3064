@@ -52,9 +52,9 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Sex</label>
+                            <label>Gender</label>
                             <label>
-                                <input type="text" name="sex" class="form-control" required>
+                                <input type="text" name="gender" class="form-control" required>
                             </label>
                         </div>
                         <button type="submit" class="btn btn-primary">Register</button>

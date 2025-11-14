@@ -15,7 +15,6 @@ while ($row=mysqli_fetch_array($res))
     $contact=$row["contact"];
 
 }
-header("location.index.php");
 ?>
 
 <html lang="en" xmlns="">

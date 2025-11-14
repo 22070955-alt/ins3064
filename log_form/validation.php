@@ -8,7 +8,7 @@ mysqli_select_db($con, 'LoginReg');
 /* create variables to store data */
 $name =$_POST['user'];
 $pass =$_POST['password'];
-$sex =$_POST['sex'];
+$sex =$_POST['gender'];
 
 /* select data from DB */
 $s="select * from userReg where username='$name'&& password='$pass'";
